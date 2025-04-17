@@ -8,6 +8,7 @@ const nextConfig = {
   },
   basePath: process.env.NODE_ENV === 'production' ? '/Lander' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/Lander/' : '',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
