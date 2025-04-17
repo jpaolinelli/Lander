@@ -77,6 +77,6 @@ Here's the full, detailed, and structured list of **50 atomic 1-point stories** 
 - [x] Add GitHub Actions or CI/CD pipeline for automated testing/building.
 
 ### 🚢 Deployment and Testing
-- [ ] Deploy to GitHub Pages or Vercel for public access.
+- [x] Deploy to GitHub Pages or Vercel for public access.
 - [ ] Test game across major browsers (Chrome, Firefox, Edge, Safari).
 - [x] Optimize game assets for quick loading and performance.
