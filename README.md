@@ -46,6 +46,7 @@ Retro Lunar Lander is a modern take on the classic arcade game from 1979. The ga
 - **TypeScript** - Type-safe JavaScript
 - **Three.js** - 3D graphics library
 - **React Three Fiber** - React renderer for Three.js
+- **Zustand** - State management
 
 ### Features
 - Retro pixelated graphics
@@ -81,6 +82,10 @@ yarn install
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
@@ -143,4 +148,63 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Inspired by the classic Lunar Lander arcade game (1979)
 - Thanks to the Three.js and React Three Fiber communities
-- Special thanks to all contributors and testers 
+- Special thanks to all contributors and testers
+
+## Play the Game
+
+The game is deployed to GitHub Pages at: [https://[your-username].github.io/Lander/](https://[your-username].github.io/Lander/)
+
+## Development
+
+### Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Game Mechanics
+
+The game consists of three main phases:
+
+1. **Launch Phase**: Launch from Earth and achieve orbit
+2. **Orbital Phase**: Maintain orbit and prepare for landing
+3. **Landing Phase**: Land safely on the landing pad
+
+### Controls
+
+- **SPACE**: Thrust
+- **LEFT/RIGHT ARROWS**: Rotate
+- **R**: Reset Game
+
+### Objectives
+
+- Conserve fuel
+- Achieve stable orbit
+- Land safely on the landing pad
+
+## Technical Details
+
+- Built with Next.js 14
+- Uses Three.js for 3D graphics
+- React Three Fiber for React integration
+- Zustand for state management
+
+## Project Structure
+
+- `src/components/`: Game components
+- `src/utils/`: Utility functions and game state
+- `public/`: Static assets
+
+## License
+
+MIT 
