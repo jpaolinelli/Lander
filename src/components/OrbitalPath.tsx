@@ -45,10 +45,10 @@ const OrbitalPath = () => {
   if (points.length < 2) return null;
 
   return (
-    <line ref={lineRef}>
-      <bufferGeometry />
-      <lineBasicMaterial color="#00ff00" opacity={0.5} transparent />
-    </line>
+    <primitive object={new THREE.Line(
+      new THREE.BufferGeometry(),
+      new THREE.LineBasicMaterial({ color: '#00ff00', opacity: 0.5, transparent: true })
+    )} ref={lineRef} />
   );
 };
 
